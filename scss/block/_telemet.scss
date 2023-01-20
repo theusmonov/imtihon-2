@@ -36,6 +36,9 @@
             margin-top: -100px;
             margin-left: -40px;
            }
+           &_img10{
+            display: none;
+           }
         }
     }
 
@@ -91,7 +94,12 @@
                     margin-left: -10px;
                 }
                 &_img2{
-                    width: 500px;
+                   display: none;
+                }
+                &_img10{
+                    display: block;
+                    margin-top: -150px;
+                    margin-left: 10px;
                 }
             }
         }

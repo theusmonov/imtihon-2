@@ -41,6 +41,9 @@
                 margin-left: -250px;
                 margin-top: 50px;
             }
+            &_img15{
+                display: none;
+            }
         }
     }
 }
@@ -95,10 +98,21 @@
                 &_img1{
                     width: 350px;
                 }
+                &_img2{
+                    display: none;
+                }
+                &_img15{
+                    display: block;
+                    margin-top: -250px;
+                    margin-left: 202px;
+                }
+               
+                
             }
             &_text{
                 width: 100%;
                 text-align: center;
+                margin-top: 150px;
             }
         }
     }

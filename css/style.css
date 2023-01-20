@@ -64,6 +64,12 @@ body {
   justify-content: center;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
 }
 .header_nav_list {
   justify-content: space-between;
@@ -373,6 +379,9 @@ body {
   margin-top: -100px;
   margin-left: -40px;
 }
+.telemet_box_img_img10 {
+  display: none;
+}
 
 @media only screen and (max-width: 1114px) {
   .continer {
@@ -420,7 +429,12 @@ body {
     margin-left: -10px;
   }
   .telemet_box_img_img2 {
-    width: 500px;
+    display: none;
+  }
+  .telemet_box_img_img10 {
+    display: block;
+    margin-top: -150px;
+    margin-left: 10px;
   }
 }
 .city {
@@ -554,6 +568,9 @@ body {
   margin-left: -250px;
   margin-top: 50px;
 }
+.payment_box_img_img15 {
+  display: none;
+}
 
 @media only screen and (max-width: 1114px) {
   .continer {
@@ -602,9 +619,18 @@ body {
   .payment_box_img_img1 {
     width: 350px;
   }
+  .payment_box_img_img2 {
+    display: none;
+  }
+  .payment_box_img_img15 {
+    display: block;
+    margin-top: -250px;
+    margin-left: 202px;
+  }
   .payment_box_text {
     width: 100%;
     text-align: center;
+    margin-top: 150px;
   }
 }
 .today {
