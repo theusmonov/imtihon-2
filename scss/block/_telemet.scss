@@ -1,0 +1,100 @@
+.telemet{
+    width: 100%;
+    display: flex;
+    padding-top: 200px;
+    &_box{
+        display: flex;
+        position: relative;
+        &_text{
+            width: 50%;
+            margin-left: 80px;
+            margin-top: 50px;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: small;
+            }
+            &_btn{
+                width: 180px;
+                height: 50px;
+                background-color: #FCB72B;
+                border: none;
+                color: white;
+                &:hover{
+                    background-color: rgb(112, 112, 255);
+                }
+                &:active{
+                    background-color: red;
+                }
+            }
+        }
+        &_img{
+            width: 50%;
+            text-align: center;
+           &_img2{
+            margin-top: -100px;
+            margin-left: -40px;
+           }
+        }
+    }
+
+   
+}
+
+
+@media only screen and (max-width:1114px) {
+    .continer{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .telemet{
+        width: 100%;
+        &_box{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-left: -35px;
+            width: 100%;
+            text-align: center;
+
+            &_text{
+                text-align: center;
+                width: 100%;
+                margin-left: -1px;
+                margin-left: 35px;
+            }
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width:500px) {
+    .continer{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .telemet{
+        width: 100%;
+        &_box{
+            width: 100%;
+
+            &_img{
+                text-align: center;
+                &_img1{
+                    width: 300px;
+                    margin-left: -10px;
+                }
+                &_img2{
+                    width: 500px;
+                }
+            }
+        }
+    }
+    
+}

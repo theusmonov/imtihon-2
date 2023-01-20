@@ -1,0 +1,119 @@
+.lokation{
+    width: 100%;
+    padding-top: 150px;
+    &_boxs{
+        width: 90%;
+        display: flex;
+
+        &_box1{
+            
+            width: 400px;
+            height: 250px;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: smaller;
+            }
+        }
+        &_box2{
+          
+            width: 400px;
+            height: 250px;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: smaller;
+            }
+            
+        }
+        &_box3{
+           
+            width: 400px;
+            height: 250px;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: smaller;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1114px) {
+   .continer{
+    width: 100%;
+   } 
+   .main{
+    width: 100%;
+   }
+   .lokation{
+    width: 100%;
+    &_boxs{
+        flex-direction: column;
+        gap: 20px;
+        &_box1{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        &_box2{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        &_box3{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+   }
+}
+
+
+@media only screen and (max-width:500px) {
+    .continer{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .lokation{
+        width: 100%;
+
+        &_boxs{
+            flex-direction: column;
+            gap: 30px;
+            margin-left: -1px;
+            margin-left: 12px;
+           
+
+            &_box1{
+             flex-direction: column;   
+             text-align: center;
+            }
+            &_box2{
+                flex-direction: column;
+                text-align: center;   
+            }
+            &_box3{
+                flex-direction: column;  
+                text-align: center; 
+            }
+        }
+    }
+}

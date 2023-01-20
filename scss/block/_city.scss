@@ -1,0 +1,102 @@
+.city{
+    width: 100%;
+    margin-top: 200px;
+    &_box{
+        width: 100%;
+        display: flex;
+        position: relative;
+        
+
+        &_img{
+            width: 50%;
+            text-align: center;
+
+            &_img2{
+             position: absolute;
+             margin-left: -1000px;
+            }
+        }
+        &_text{
+            width: 50%;
+            margin-top: 50px;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: small;
+            }
+            &_btn{
+                width: 180px;
+                height: 50px;
+                background-color: #FCB72B;
+                border: none;
+                color: white;
+                &:hover{
+                    background-color: rgb(112, 112, 255);
+                }
+                &:active{
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1114px) {
+    .continer{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .city{
+        width: 100%;
+        &_box{
+            width: 100%;
+            flex-direction: column;
+
+            &_img{
+                width: 100%;
+                text-align: center;
+            }
+            &_text{
+                text-align: center;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width:500px) {
+    .continer{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .city{
+        width: 100%;
+        &_box{
+            &_img{
+                width: 100%;
+                text-align: center;
+                &_img1{
+                    width: 350px;
+                }
+                &_img2{
+                    width: 850px;
+                }
+            }
+            &_text{
+                width: 100%;
+            }
+        }
+
+       
+    }
+    
+}
